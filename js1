@@ -1,0 +1,22 @@
+var num = parseInt(window.prompt('请随便输入数字','0'));
+		var str;
+		document.write('您输入的数为：');document.write(num);
+		switch(num){
+			case 0:
+				str = 'Sunday';break;
+			case 1:
+				str = 'Monday';break;
+			case 2:
+				str = 'Tuesday';break;
+			case 3:
+				str = 'Wednesday';break;
+			case 4:
+				str = 'Thursday';break;
+			case 5:
+				str = 'Friday';break;
+			case 6:
+				str = 'Saturday';break;
+		}
+		alert('今天是' + str);
+  /////////////////////////////////////////////////////////////////////////////////////
+  
